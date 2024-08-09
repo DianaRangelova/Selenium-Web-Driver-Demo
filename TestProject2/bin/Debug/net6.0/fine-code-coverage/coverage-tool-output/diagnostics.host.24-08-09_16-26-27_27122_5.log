@@ -1,0 +1,184 @@
+TpTrace Verbose: 0 : 12396, 1, 2024/08/09, 16:26:27.521, 13973418802, testhost.dll, Version: 17.1.0
+TpTrace Information: 0 : 12396, 1, 2024/08/09, 16:26:27.550, 13973574521, testhost.dll, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 52295],[--endpoint, 127.0.0.1:052295],[--role, client],[--parentprocessid, 11840],[--diag, C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\coverage-tool-output\diagnostics.host.24-08-09_16-26-27_27122_5.log],[--tracelevel, 4],[--datacollectionport, 52294],[--telemetryoptedin, false]
+TpTrace Information: 0 : 12396, 1, 2024/08/09, 16:26:27.555, 13973620273, testhost.dll, Setting up debug trace listener.
+TpTrace Verbose: 0 : 12396, 1, 2024/08/09, 16:26:27.555, 13973626320, testhost.dll, TestPlatformTraceListener.Setup: Replacing listener 0 with TestHostTraceListener.
+TpTrace Verbose: 0 : 12396, 1, 2024/08/09, 16:26:27.555, 13973627668, testhost.dll, TestPlatformTraceListener.Setup: Added test platform trace listener.
+TpTrace Information: 0 : 12396, 1, 2024/08/09, 16:26:27.558, 13973653350, testhost.dll, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '11840'
+TpTrace Information: 0 : 12396, 1, 2024/08/09, 16:26:27.578, 13973850174, testhost.dll, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:052295'
+TpTrace Information: 0 : 12396, 1, 2024/08/09, 16:26:27.600, 13974073300, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:052295
+TpTrace Information: 0 : 12396, 1, 2024/08/09, 16:26:27.617, 13974240560, testhost.dll, DefaultEngineInvoker.ConnectToDatacollector: Connecting to datacollector, port: 52294
+TpTrace Information: 0 : 12396, 1, 2024/08/09, 16:26:27.626, 13974335753, testhost.dll, Trying to connect to server on socket : 127.0.0.1:52294 
+TpTrace Verbose: 0 : 12396, 1, 2024/08/09, 16:26:27.627, 13974345870, testhost.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 12396, 8, 2024/08/09, 16:26:27.640, 13974469423, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 12396, 8, 2024/08/09, 16:26:27.640, 13974471395, testhost.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 12396, 1, 2024/08/09, 16:26:27.641, 13974486123, testhost.dll, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Information: 0 : 12396, 11, 2024/08/09, 16:26:27.642, 13974490712, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:052295
+TpTrace Information: 0 : 12396, 13, 2024/08/09, 16:26:27.645, 13974522098, testhost.dll, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Verbose: 0 : 12396, 11, 2024/08/09, 16:26:27.645, 13974522059, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:27.651, 13974586286, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:52295 localEndPoint: [::ffff:127.0.0.1]:52296
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:27.652, 13974594357, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:52295 localEndPoint: [::ffff:127.0.0.1]:52296
+TpTrace Information: 0 : 12396, 12, 2024/08/09, 16:26:27.913, 13977203913, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (ProtocolVersion) -> 7
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:28.005, 13978118169, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Logging TestHost Diagnostics in file: C:\\Users\\PC\\Desktop\\2-SeleniumWebDriver\\TestProject2\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output\\diagnostics.host.24-08-09_16-26-27_27122_5.log"}}
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:28.005, 13978122171, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:52295 localEndPoint: [::ffff:127.0.0.1]:52296
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:28.005, 13978124897, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:52295 localEndPoint: [::ffff:127.0.0.1]:52296
+TpTrace Information: 0 : 12396, 12, 2024/08/09, 16:26:28.020, 13978277475, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestExecution.Initialize) -> [
+  "C:\\Users\\PC\\Desktop\\2-SeleniumWebDriver\\TestProject2\\bin\\Debug\\net6.0\\fine-code-coverage\\build-output\\NUnit3.TestAdapter.dll"
+]
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:28.038, 13978453190, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:52295 localEndPoint: [::ffff:127.0.0.1]:52296
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:28.038, 13978455098, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:52295 localEndPoint: [::ffff:127.0.0.1]:52296
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.039, 13978462079, testhost.dll, TestRequestHandler.OnMessageReceived: Running job 'TestExecution.Initialize'.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.044, 13978510268, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Information: 0 : 12396, 12, 2024/08/09, 16:26:28.045, 13978521895, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "C:\\Users\\PC\\Desktop\\2-SeleniumWebDriver\\TestProject2\\bin\\Debug\\net6.0\\fine-code-coverage\\build-output\\TestProject2.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>C:\\Users\\PC\\Desktop\\2-SeleniumWebDriver\\TestProject2\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v6.0</TargetFrameworkVersion>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"blame\" enabled=\"True\" />\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\8.0.300\\vstest.console.dll\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n  <DataCollectionRunSettings>\r\n    <DataCollectors>\r\n      <DataCollector friendlyName=\"blame\" enabled=\"True\">\r\n        <Configuration>\r\n          <ResultsDirectory>C:\\Users\\PC\\Desktop\\2-SeleniumWebDriver\\TestProject2\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n        </Configuration>\r\n      </DataCollector>\r\n    </DataCollectors>\r\n  </DataCollectionRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.048, 13978555514, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.051, 13978581666, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.052, 13978595933, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.053, 13978598619, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.056, 13978637461, testhost.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.060, 13978669042, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.060, 13978671985, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.060, 13978673317, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.060, 13978674332, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.060, 13978675916, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.062, 13978695442, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.076, 13978833219, testhost.dll, AssemblyResolver.OnResolve: NUnit3.TestAdapter: Resolving assembly.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.077, 13978838629, testhost.dll, AssemblyResolver.OnResolve: NUnit3.TestAdapter: Searching in: 'C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.079, 13978863023, testhost.dll, AssemblyResolver.OnResolve: NUnit3.TestAdapter: Loading assembly 'C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll'.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.080, 13978875854, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: NUnit3.TestAdapter, from path: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.115, 13979223703, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.api: Resolving assembly.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.115, 13979226169, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.api: Searching in: 'C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.116, 13979232178, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.api: Loading assembly 'C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\nunit.engine.api.dll'.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.117, 13979239755, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: nunit.engine.api, from path: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\nunit.engine.api.dll
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:28.121, 13979278318, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:52295 localEndPoint: [::ffff:127.0.0.1]:52296
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.128, 13979357089, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.129, 13979364822, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.129, 13979366196, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.129, 13979367340, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.130, 13979368527, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.130, 13979369554, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.134, 13979415745, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation2 TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor2
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.135, 13979420041, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.135, 13979420990, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.135, 13979421586, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.135, 13979424767, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.135, 13979425587, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.135, 13979426174, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.135, 13979426685, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.135, 13979427202, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.135, 13979427749, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.136, 13979428500, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.136, 13979434120, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.136, 13979434824, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.136, 13979435461, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.136, 13979436451, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.136, 13979436998, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.136, 13979437473, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.144, 13979515210, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: NUnit.VisualStudio.TestAdapter.NUnit3TestExecutor
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.145, 13979525641, testhost.dll, TestExecutorExtensionManager: Loading executor NUnit.VisualStudio.TestAdapter.NUnit3TestExecutor
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.145, 13979527131, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.148, 13979549680, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestSettingsProviderPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ISettingsProvider
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.148, 13979552355, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.148, 13979553602, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.148, 13979554545, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.148, 13979557245, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.149, 13979558274, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.149, 13979559149, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.149, 13979559941, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.149, 13979560735, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.149, 13979561625, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.149, 13979562771, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.150, 13979569622, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.150, 13979570685, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.150, 13979571534, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.150, 13979572337, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.150, 13979573455, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.150, 13979574289, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.152, 13979595085, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.152, 13979596670, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.154, 13979608431, testhost.dll, TestRequestHandler.OnMessageReceived: Running job 'TestExecution.StartWithSources'.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.353, 13981606757, testhost.dll, TestDiscoveryManager: Discovering tests from sources C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\TestProject2.dll
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.360, 13981676201, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestDiscovererPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestDiscoverer
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.361, 13981679111, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.361, 13981680418, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.361, 13981681460, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.361, 13981684295, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.361, 13981685386, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.361, 13981686272, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.361, 13981687064, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.362, 13981687832, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.362, 13981688727, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\NUnit3.TestAdapter.dll
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.362, 13981689984, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.368, 13981748313, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.368, 13981750540, testhost.dll, TestPluginCache: Discoverers are 'NUnit.VisualStudio.TestAdapter.NUnit3TestDiscoverer, NUnit3.TestAdapter, Version=4.2.0.0, Culture=neutral, PublicKeyToken=4cb40d35494691ac'.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.368, 13981751681, testhost.dll, TestPluginCache: Executors are 'executor://NUnit3TestExecutor'.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.368, 13981752546, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.368, 13981753510, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.368, 13981754270, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.386, 13981928087, testhost.dll, PEReaderHelper.GetAssemblyType: Determined assemblyType:'Managed' for source: 'C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\TestProject2.dll'
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.401, 13982082944, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://NUnit3TestExecutor
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.407, 13982143729, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.core: Resolving assembly.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.407, 13982145690, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.core: Searching in: 'C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.408, 13982151455, testhost.dll, AssemblyResolver.OnResolve: nunit.engine.core: Loading assembly 'C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\nunit.engine.core.dll'.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.409, 13982159147, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: nunit.engine.core, from path: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\nunit.engine.core.dll
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.433, 13982399290, testhost.dll, NUnit Adapter 4.2.0.0: Test execution started
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.433, 13982402233, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"NUnit Adapter 4.2.0.0: Test execution started"}}
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.489, 13982965142, testhost.dll, Running all tests in C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\TestProject2.dll
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.489, 13982967331, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Running all tests in C:\\Users\\PC\\Desktop\\2-SeleniumWebDriver\\TestProject2\\bin\\Debug\\net6.0\\fine-code-coverage\\build-output\\TestProject2.dll"}}
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.503, 13983106644, testhost.dll, AssemblyResolver.OnResolve: testcentric.engine.metadata: Resolving assembly.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.504, 13983108292, testhost.dll, AssemblyResolver.OnResolve: testcentric.engine.metadata: Searching in: 'C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.504, 13983113151, testhost.dll, AssemblyResolver.OnResolve: testcentric.engine.metadata: Loading assembly 'C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\testcentric.engine.metadata.dll'.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.505, 13983119213, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: testcentric.engine.metadata, from path: C:\Users\PC\Desktop\2-SeleniumWebDriver\TestProject2\bin\Debug\net6.0\fine-code-coverage\build-output\testcentric.engine.metadata.dll
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:28.728, 13985348203, testhost.dll,    NUnit3TestExecutor discovered 1 of 1 NUnit test cases using Current Discovery mode, Non-Explicit run
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:28.728, 13985350479, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"   NUnit3TestExecutor discovered 1 of 1 NUnit test cases using Current Discovery mode, Non-Explicit run"}}
+TpTrace Verbose: 0 : 12396, 16, 2024/08/09, 16:26:28.796, 13986033574, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: TestProject2.WorkingWithWebTable.TestExtractProductInformation.
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:29.122, 13989293998, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:52295 localEndPoint: [::ffff:127.0.0.1]:52296
+TpTrace Information: 0 : 12396, 14, 2024/08/09, 16:26:29.726, 13995328706, testhost.dll, Sending test run statistics
+TpTrace Verbose: 0 : 12396, 14, 2024/08/09, 16:26:29.777, 13995844864, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestExecution.StatsChange","Payload":{"NewTestResults":[],"TestRunStatistics":{"ExecutedTests":0,"Stats":{}},"ActiveTests":[{"Id":"f815aec5-23ea-61aa-3464-1e4c0c1440ca","FullyQualifiedName":"TestProject2.WorkingWithWebTable.TestExtractProductInformation","DisplayName":"TestExtractProductInformation","ExecutorUri":"executor://NUnit3TestExecutor","Source":"C:\\Users\\PC\\Desktop\\2-SeleniumWebDriver\\TestProject2\\bin\\Debug\\net6.0\\fine-code-coverage\\build-output\\TestProject2.dll","CodeFilePath":null,"LineNumber":0,"Properties":[{"Key":{"Id":"NUnit.Seed","Label":"Seed","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"1221735234"}]}]}}
+TpTrace Verbose: 0 : 12396, 14, 2024/08/09, 16:26:29.778, 13995849312, testhost.dll, TestRunCache: OnNewTestResult: Notified the onCacheHit callback.
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:30.127, 13999343972, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:52295 localEndPoint: [::ffff:127.0.0.1]:52296
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:31.132, 14009393758, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:52295 localEndPoint: [::ffff:127.0.0.1]:52296
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:32.136, 14019433976, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:52295 localEndPoint: [::ffff:127.0.0.1]:52296
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:33.141, 14029473751, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:52295 localEndPoint: [::ffff:127.0.0.1]:52296
+TpTrace Verbose: 0 : 12396, 16, 2024/08/09, 16:26:33.951, 14037574651, testhost.dll, TestExecutionRecorder.RecordEnd: test: TestProject2.WorkingWithWebTable.TestExtractProductInformation execution completed.
+TpTrace Warning: 0 : 12396, 16, 2024/08/09, 16:26:33.952, 14037585111, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Verbose: 0 : 12396, 16, 2024/08/09, 16:26:33.978, 14037842880, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: TestProject2.WorkingWithWebTable.TestExtractProductInformation.
+TpTrace Warning: 0 : 12396, 16, 2024/08/09, 16:26:33.986, 14037930124, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Warning: 0 : 12396, 16, 2024/08/09, 16:26:33.987, 14037933261, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestExtractProductInformation' in inProgress list.
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:33.993, 14038002427, testhost.dll, NUnit Adapter 4.2.0.0: Test execution complete
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:33.994, 14038005351, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"NUnit Adapter 4.2.0.0: Test execution complete"}}
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:34.009, 14038156089, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Completed running tests for executor://NUnit3TestExecutor
+TpTrace Information: 0 : 12396, 4, 2024/08/09, 16:26:34.017, 14038238662, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:34.055, 14038621070, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:05.6190705","Metrics":{}},"LastRunTests":{"NewTestResults":[{"TestCase":{"Id":"f815aec5-23ea-61aa-3464-1e4c0c1440ca","FullyQualifiedName":"TestProject2.WorkingWithWebTable.TestExtractProductInformation","DisplayName":"TestExtractProductInformation","ExecutorUri":"executor://NUnit3TestExecutor","Source":"C:\\Users\\PC\\Desktop\\2-SeleniumWebDriver\\TestProject2\\bin\\Debug\\net6.0\\fine-code-coverage\\build-output\\TestProject2.dll","CodeFilePath":null,"LineNumber":0,"Properties":[{"Key":{"Id":"NUnit.Seed","Label":"Seed","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"1221735234"}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"TestExtractProductInformation","Messages":[],"ComputerName":"DESKTOP-78QNQ9Q","Duration":"00:00:05.1269470","StartTime":"2024-08-09T13:26:28.7929124+00:00","EndTime":"2024-08-09T13:26:33.9201073+00:00","Properties":[{"Key":{"Id":"NUnit.Seed","Label":"Seed","Category":"","Description":"","Attributes":0,"ValueType":"System.String"},"Value":"1221735234"}]}],"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"ActiveTests":[]},"RunAttachments":[],"ExecutorUris":["executor://nunit3testexecutor/"]}}
+TpTrace Verbose: 0 : 12396, 4, 2024/08/09, 16:26:34.056, 14038628791, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:34.057, 14038635516, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:52295 localEndPoint: [::ffff:127.0.0.1]:52296
+TpTrace Information: 0 : 12396, 12, 2024/08/09, 16:26:34.057, 14038638357, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 12396, 12, 2024/08/09, 16:26:34.057, 14038639615, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 12396, 1, 2024/08/09, 16:26:34.058, 14038650224, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 12396, 1, 2024/08/09, 16:26:34.058, 14038652353, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:052295
+TpTrace Information: 0 : 12396, 12, 2024/08/09, 16:26:34.059, 14038653178, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:052295
+TpTrace Information: 0 : 12396, 1, 2024/08/09, 16:26:34.059, 14038653573, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Information: 0 : 12396, 12, 2024/08/09, 16:26:34.059, 14038654494, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Verbose: 0 : 12396, 1, 2024/08/09, 16:26:34.059, 14038657569, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:34.059, 14038657590, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 12396, 12, 2024/08/09, 16:26:34.059, 14038659740, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 12396, 1, 2024/08/09, 16:26:34.059, 14038659876, testhost.dll, Testhost process exiting.
+TpTrace Information: 0 : 12396, 12, 2024/08/09, 16:26:34.060, 14038665495, testhost.dll, SocketClient.PrivateStop: Stop communication from server endpoint: 127.0.0.1:052295, error:
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:34.060, 14038668445, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Verbose: 0 : 12396, 12, 2024/08/09, 16:26:34.060, 14038669567, testhost.dll, TcpClientExtensions.MessageLoopAsync: exiting MessageLoopAsync remoteEndPoint: [::ffff:127.0.0.1]:52295 localEndPoint: [::ffff:127.0.0.1]:52296

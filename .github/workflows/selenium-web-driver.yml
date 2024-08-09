@@ -17,7 +17,26 @@ jobs:
  
     - name: Setup Selenium Manager Permissions
       run: |
-        if (Test-Path ./SeleniumIDE/bin/Debug/net6.0/selenium-manager/windows/selenium-manager.exe) {
+        if (Test-Path ./2-SeleniumWebDriver/TestProject1/bin/Debug/net6.0/selenium-manager/windows/selenium-manager.exe) {
+          echo "Selenium Manager found."
+          # No need for chmod, but we can verify the path and file existence
+        } else {
+          echo "Selenium Manager not found!"
+          exit 1
+        }
+      shell: powershell
+      run: |
+        if (Test-Path ./2-SeleniumWebDriver/TestProject1/bin/Debug/net6.0/selenium-manager/windows/selenium-manager.exe) {
+          echo "Selenium Manager found."
+          # No need for chmod, but we can verify the path and file existence
+        } else {
+          echo "Selenium Manager not found!"
+          exit 1
+        }
+      shell: powershell
+
+      run: |
+        if (Test-Path ./2-SeleniumWebDriver/TestProject3/bin/Debug/net6.0/selenium-manager/windows/selenium-manager.exe) {
           echo "Selenium Manager found."
           # No need for chmod, but we can verify the path and file existence
         } else {

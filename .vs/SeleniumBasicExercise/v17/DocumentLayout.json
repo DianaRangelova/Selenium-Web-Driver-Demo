@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "TestProject3\\DropDown.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\2-SeleniumWebDriver\\TestProject3\\DropDown.cs",
               "RelativeToolTip": "TestProject3\\DropDown.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAABsAAAAvAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAABsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T16:42:56.924Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "TestProject2\\Table.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAwwBkAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T16:42:53.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T16:42:53.066Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "TestProject1\\TestCalculator.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T16:42:47.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T16:42:47.618Z"
             }
           ]
         }
